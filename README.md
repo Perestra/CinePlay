@@ -1,2 +1,2 @@
-# blockbuster
+# Blockbuster
 Streaming de filme e série utilizando a API TMDB
