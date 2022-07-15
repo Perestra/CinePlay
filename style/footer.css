@@ -1,0 +1,21 @@
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+}
+.footer_item{
+    text-align: center;
+    padding: 20px 0;
+}
+.footer_item h1{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: var(--White);
+}    
+.footer_item span{
+    font-weight: 400;
+} 

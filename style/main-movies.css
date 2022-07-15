@@ -1,0 +1,97 @@
+
+
+.main_movies{
+    margin: 100px 0;
+}
+.main_movies h1{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--White);
+    letter-spacing: 1.2px;
+}
+.main_movies hr{
+    width: 90px;
+}
+.movies_items{
+    margin-top: 30px;
+    overflow-x: scroll;
+}
+.movies_items ul{
+    display: inline-flex;
+    column-gap: 30px;
+}
+.movies_items li{
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    width: 265px;
+    height: 150px;
+    border-radius: 10px;
+
+    background-image: url(https://www.themoviedb.org/t/p/original/p3Jmm6d1ShUrJEuU3DYD2K19c66.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movies_items li span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--White);
+    padding-left: 10px;
+}
+.movies_items li strong{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--White);
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.movies_items li button{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+
+    width: 45px;
+    height: 45px;
+
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all ease-in-out 0.4s;
+}
+.movies_items li:hover button{
+    opacity: 1;
+    transform: translateY(0);
+}
+.movies_items li button i{
+    font-size: 40px;
+    color: var(--White);
+
+    background: none;    
+    transition: all ease-in-out 0.4s;
+}
+.movies_items::-webkit-scrollbar{
+    height: 6px;
+}
+.movies_items::-webkit-scrollbar-track{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.movies_items::-webkit-scrollbar-thumb{
+    background: var(--White);
+    border-radius: 10px;
+}
+
+

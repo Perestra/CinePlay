@@ -1,74 +1,39 @@
 
-.header{
-    background-color: rgb(28, 28, 75);
-    box-shadow: var(--headerShadow);
-}
+
 .header_items{
-    max-width: 90%;
-    
-    margin: auto;
-    padding: 15px 0;
+    margin: 0 100px;
+    padding: 20px 0;
 }
 .header_title_pages{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 10px 0;
 }
-
 .item_title h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    font-style: italic;
     color: var(--Yellow);
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 36px;
-    font-weight: 900;
 }
-.item_pages{
+.menu_mobile{
     display: flex;
-    column-gap: 50px;
-}
-.item_pages a{
-    text-decoration: none;
-}
-.item_pages h1{
-    font-family: 'Rajdhani', sans-serif; 
-    font-size: 22px;
-    font-weight: 300;
-    color: var(--White);
-}
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 9px;
+    
+    width: 40px;
 
-.header_search{  
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    margin: auto;
-    padding: 0 10px;
-    background-color: var(--White);
-    border-radius: 25px;
-}
-.header_search input{
-    flex: 1;
-    height: 50px;
-    border: none;
-    outline: none;
     background: none;
-
-    font-family: 'Rajdhani', sans-serif; 
-    font-size: 16px;
-    font-weight: 500;
-    color: #000;
-}
-.header_search button{
     border: none;
-    outline: none;
-    background: none;
     cursor: pointer;
-
-    margin-left: 5px;
 }
-.header_search button i{
-    font-size: 22px;
-    color: var(--Yellow);
+.menu_mobile span{
+    width: 100%;
+    display: block;
+    background: var(--White);
+    height: 2px;
+}
+.menu_mobile span:last-child{
+    width: 50%;
 }
