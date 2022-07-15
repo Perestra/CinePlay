@@ -33,7 +33,7 @@
 }
 .item_info strong{
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 200;
     color: var(--White);
 
@@ -44,7 +44,7 @@
 
     font-family: 'Roboto Flex', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 300;
     color: var(--White);
 
     margin-bottom: 40px;
