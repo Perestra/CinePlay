@@ -40,7 +40,9 @@
     margin-bottom: 30px;
 }
 .item_info p{
-    max-width: 32%;
+    width: 100%;
+    max-width: 560px;
+    height: 100px;
 
     font-family: 'Roboto Flex', sans-serif;
     font-size: 17px;
@@ -48,6 +50,11 @@
     color: var(--White);
 
     margin-bottom: 40px;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
 }
 .main_buttons{
     display: flex;
